@@ -42,3 +42,13 @@ Trained on the **OSMI Tech Survey 2016 dataset** with ML/DL models, the system h
 pip install -r requirements.txt
 
 
+▶️ Run the Project
+# Step 1: Train models (Random Forest, SVM, Naïve Bayes, RNN)
+python train.py
+
+# Step 2: Test models on evaluation dataset
+python test.py
+
+# Step 3: Predict with user questionnaire (uses best model: SVM)
+python predict.py
+
