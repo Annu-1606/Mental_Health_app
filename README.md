@@ -54,21 +54,7 @@ python train.py
 # Predict with user questionnaire
 python predict.py
 
-📈 Results
-Algorithm	Accuracy	Precision	Recall	F1-score
-Support Vector Machine (SVM)	93.11%	92.5	93.1	92.4
-Random Forest	89.13%	86.0	89.0	87.0
-Naïve Bayes	88.30%	86.0	88.0	87.0
-RNN (LSTM)	88.50%	–	–	–
 
-✅ SVM achieved the best performance (93.11%) for predicting mental health disorders.
 
-🧪 Application Workflow
 
-User answers mental health questionnaire.
 
-Responses are preprocessed and encoded.
-
-Trained ML model predicts likelihood of mental health disorder.
-
-Dashboard displays prediction & suggestions.
